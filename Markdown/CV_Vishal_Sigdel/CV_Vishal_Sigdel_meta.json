@@ -1,0 +1,65 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Vishal Sigdel",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          229.281005859375,
+          52.787109375
+        ],
+        [
+          382.5699462890625,
+          52.787109375
+        ],
+        [
+          382.5699462890625,
+          79.857421875
+        ],
+        [
+          229.281005859375,
+          79.857421875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          220
+        ],
+        [
+          "TableCell",
+          78
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\tmpk4dfm1g6"
+}

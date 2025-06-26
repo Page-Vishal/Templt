@@ -1,0 +1,35 @@
+
+{
+  "contactInformation": {
+    "name": "",
+    "address": "",
+    "email": "",
+    "phone": "",
+    "portfolioOrLinkedIn": ""
+  },
+  "education": [
+    {
+      "institution": "",
+      "degreeMajor": "",
+      "duration": ""
+    }
+  ],
+  "projects": [
+    {
+      "projectName": "",
+      "technologiesUsed": [],
+      "description": []
+    }
+  ],
+  "technologies": {
+    "languages": [],
+    "developerTools": [],
+    "frameworks": [],
+    "databases": []
+  },
+  "certificates": [
+    {
+      "certificateName": ""
+    }
+  ]
+}

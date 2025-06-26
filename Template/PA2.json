@@ -1,0 +1,87 @@
+
+{
+  "documentTitle": "",
+  "agreementDetails": {
+    "agreementName": "",
+    "stateOfAgreement": "",
+    "effectiveDate": {
+      "day": "",
+      "month": "",
+      "year": ""
+    },
+    "firstParty": {
+      "fullName": "",
+      "address": "",
+      "shortName": ""
+    },
+    "secondParty": {
+      "fullName": "",
+      "address": "",
+      "shortName": ""
+    }
+  },
+  "whereasClauses": {
+    "intentToMarry": "",
+    "partiesPreviouslyMarried": "",
+    "firstPartyChildrenFromPreviousRelationship": "",
+    "secondPartyChildrenFromPreviousRelationship": "",
+    "partiesChildrenTogether": ""
+  },
+  "keyProvisions": {
+    "premaritalProperty": {
+      "type": "",
+      "description": ""
+    },
+    "propertyAcquiredDuringMarriage": {
+      "type": "",
+      "description": ""
+    },
+    "divisionOfMaritalProperty": {
+      "description": "",
+      "firstPartyPercentage": "",
+      "secondPartyPercentage": ""
+    },
+    "spousalSupport": {
+      "waiverClause": ""
+    },
+    "maritalResidence": {
+      "ownershipType": "",
+      "description": ""
+    },
+    "householdExpenses": {
+      "firstPartyResponsibility": [],
+      "secondPartyResponsibility": [],
+      "bothPartiesEquallyResponsible": []
+    },
+    "disputes": {
+      "resolutionMethod": "",
+      "detailedProcedure": ""
+    }
+  },
+  "signatures": {
+    "firstParty": {
+      "fullName": "",
+      "signature": ""
+    },
+    "secondParty": {
+      "fullName": "",
+      "signature": ""
+    }
+  },
+  "notaryAcknowledgment": {
+    "state": "",
+    "county": "",
+    "acknowledgmentDate": {
+      "day": "",
+      "month": "",
+      "year": ""
+    },
+    "acknowledgedBy": "",
+    "notaryPublicSignature": "",
+    "commissionExpires": {
+      "day": "",
+      "month": "",
+      "year": ""
+    }
+  }
+}

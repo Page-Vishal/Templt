@@ -1,0 +1,29 @@
+
+{
+  "companyInfo": {
+    "companyName": "",
+    "address": "",
+    "phone": "",
+    "email": ""
+  },
+  "generalInformation": {
+    "processTitle": "",
+    "department": "",
+    "contactInfo": "",
+    "sopId": "",
+    "effectiveDate": "",
+    "revisionNumber": ""
+  },
+  "processOverview": {
+    "processDescription": "",
+    "purposeAndScope": "",
+    "definitionsAndRelatedDocuments": ""
+  },
+  "processSteps": [
+    {
+      "wbs": "",
+      "task": "",
+      "owner": ""
+    }
+  ]
+}
