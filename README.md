@@ -48,21 +48,19 @@
 
 ```mermaid
 graph LR
-    A[PDF Input] --> B[Existence Check]
-    B --> C{File Exists?}
-    C -->|JSON| D[Exit - Already Processed]
-    C -->|Markdown| E[Load Existing MD]
-    C -->|None| F[PDF to Markdown]
-    F --> G[Markdown Content]
-    E --> G
-    G --> H[AI Template Generation]
-    H --> I[Content Filtering]
-    I --> J[JSON Output]
+    A[PDF Input] --> B[Check File Type]
+    B --> C{File PDF?}
+    C -->|No| D[HTTPException: Exit]
+    C -->|Yes| E[PDF to Markdown]
+    E -->F[Markdown Content]
+    F --> G[AI Template Generation]
+    G --> H[Content Filtering]
+    H --> I[JSON Output]
     
-    style A fill:#e1f5fe
-    style D fill:#ffebee
-    style J fill:#e8f5e8
-    style H fill:#fff3e0
+    style A fill:#000000
+    style D fill:#000000
+    style J fill:#000000
+    style H fill:#000000
 ```
 
 ---
@@ -101,13 +99,10 @@ templt/
 │   │   ├── 📄 config_openai.py  # API configuration
 │   │   └── 📄 prompts.yaml      # System prompts
 │   └── 📁 utilis/
-│       ├── 📄 checkExisting.py  # File existence validation
-│       ├── 📄 filterMarkdown.py # Content cleaning utilities
-│       ├── 📄 jsonWriter.py     # JSON file operations
+│       ├── 📄 check_PDF.py      # File type validation
+│       ├── 📄 filter_markdown.py # Content cleaning utilities
+│       ├── 📄 json_writer.py     # JSON file operations
 │       └── 📄 load_prompt.py    # Prompt loading utilities
-├── 📁 misc/
-│   ├── 📄 cuda_test.py          # Test code for cuda availability
-│   └── 📄 installer.py          # script to install requirements
 ├── 📁 PDF/                      # Input PDF files
 ├── 📁 Markdown/                 # Generated Markdown files
 ├── 📁 Template/                 # Output JSON templates
